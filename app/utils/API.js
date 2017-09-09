@@ -41,10 +41,12 @@ const API = {
       return axios.get(BASEURL+params);
   },
   saveArticle: function(article) {
+    console.log(article.snippet);
     var newArticle = {
       title: article.headline.main,
       section: article.section_name,
-      date: article.pub_date,
+      date: article.pub_date ? article.pub_date.split('T')[0] : "None",
+      summary: article.snippet,
       url: article.web_url
     };
     newArticle.by = article.byline ? article.byline.original : "No Author";

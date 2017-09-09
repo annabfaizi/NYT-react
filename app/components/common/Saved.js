@@ -22,6 +22,7 @@ const Saved = (props) => {
               <div key={i} id={"result_"+(i+1)} className="well">
                 <h4>{article.title}</h4>
                 <p><strong>Date Published:</strong> {article.date}</p>
+                <p>{article.summary}</p>
                 <a href={article.url} target="_blank" >{article.url}</a>
                 <br/>
                 <br/>

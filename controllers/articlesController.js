@@ -15,6 +15,7 @@ module.exports = {
     var newArticle = new Articles({
         title: req.body.title,
         date: req.body.date,
+        summary: req.body.summary,
         url: req.body.url
     });
     newArticle.save(function(err) {

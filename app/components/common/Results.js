@@ -23,7 +23,8 @@ const Results = (props) => {
                 <div key={i} id={"result_"+(i+1)} className="well">
                   <h4>{article.headline.main}</h4>
                   <p>{article.byline ? article.byline.original : "No Author"}</p>
-                  <p><strong>Date Published: </strong> {article.pub_date}</p>
+                  <p><strong>Date Published: </strong> {article.pub_date ? article.pub_date.split('T')[0] : "None"}</p>
+                  <p>{article.snippet}</p>
                   <a href={article.web_url} target="_blank" >{article.web_url}</a>
                   <br/>
                   <button name={i} className="btn btn-default" onClick={saveArticle}><i className="fa fa-floppy-o" aria-hidden="true" /> Save Article</button>

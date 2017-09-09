@@ -8,6 +8,7 @@ var articleSchema = new Schema({
     required: true
   },
   date: String,
+  summary: String,
   url: String
 });
 
