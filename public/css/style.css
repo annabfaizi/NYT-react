@@ -30,6 +30,8 @@ body {
   order: 1;
   margin-bottom: 0;
   height: 30px;
+  font-family: 'Pacifico', cursive;
+  color: #d6487f;
 }
 
 .panel-primary > .panel-heading {
