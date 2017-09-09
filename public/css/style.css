@@ -32,3 +32,9 @@ body {
   margin-bottom: 0;
   height: 30px;
 }
+
+.panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #d6487f;
+  border-color: #d6487f;
+}
