@@ -4,10 +4,10 @@
 This is a React-based remake of the New York Times Article Search application. This app uses React components, works with helper functions, and utilizes the React mounting lifecycle to query and display articles based on user searches. It also uses Node, Express and MongoDB so that users can save articles to read later.
 
 ## App Demo: 
-<https://nyt-search-with-react.herokuapp.com/>
+* [Heroku](https://nyt-search-with-react.herokuapp.com/)
 
 ## APIs used:
-* The New York Times API <https://developer.nytimes.com/>
+* [The New York Times API](https://developer.nytimes.com/)
 
 ## Technologies/Libraries Used:
 * MongoDB & Mongoose
